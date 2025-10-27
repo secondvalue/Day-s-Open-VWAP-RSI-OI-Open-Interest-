@@ -41,7 +41,7 @@ import csv
 
 
 # ==================== CONFIGURATION ====================
-ACCESS_TOKEN = ""
+ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI1NUJBOVgiLCJqdGkiOiI2OGZlZTkyNTZmYzliMzVhNWEwNTFmOGEiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlhdCI6MTc2MTUzNjI5MywiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxNzYxNjAyNDAwfQ.taIa_G49YRz1wxhvdmQqN-n3aLoDoqn_mwmeuVC6d7w"
 NIFTY_SYMBOL = "NSE_INDEX|Nifty 50"
 CSV_FILE = "nifty_trades.csv"
 SIGNAL_COOLDOWN = 300  # 5 minutes
