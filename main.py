@@ -41,7 +41,7 @@ import csv
 
 
 # ==================== CONFIGURATION ====================
-ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI1NUJBOVgiLCJqdGkiOiI2OTAyZGUxOThkN2UwMTI0YjM2NjZhYTgiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlhdCI6MTc2MTc5NTYwOSwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxNzYxODYxNjAwfQ.I02SzvgFVZs1kd9P2Cm7HqahsS33sJ6QvyKDnTYX5zQ"
+ACCESS_TOKEN = "eyJ0eXAiOiJKV1QiLCJrZXlfaWQiOiJza192MS4wIiwiYWxnIjoiSFMyNTYifQ.eyJzdWIiOiI1NUJBOVgiLCJqdGkiOiI2OTA0MzJiMDkwMmIwZjYzMTczMTE2ZGIiLCJpc011bHRpQ2xpZW50IjpmYWxzZSwiaXNQbHVzUGxhbiI6ZmFsc2UsImlhdCI6MTc2MTg4MjgwMCwiaXNzIjoidWRhcGktZ2F0ZXdheS1zZXJ2aWNlIiwiZXhwIjoxNzYxOTQ4MDAwfQ.nyvT5ulFI5rzo8SUJ6wbUzHsX_IVwpDq2xDy6A1YKCU"
 NIFTY_SYMBOL = "NSE_INDEX|Nifty 50"
 CSV_FILE = "nifty_trades.csv"
 SIGNAL_COOLDOWN = 300  # 5 minutes
@@ -793,6 +793,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
